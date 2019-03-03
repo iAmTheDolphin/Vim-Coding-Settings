@@ -6,3 +6,5 @@ set laststatus=2
 set matchpairs+=<:>
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
 set cursorline
+set listchars=tab:\|\ 
+set list
